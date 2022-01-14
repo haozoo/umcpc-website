@@ -22,6 +22,9 @@ module.exports = {
         'club-green': '#81EC4E',
         'club-orange': '#FFBD54',
       },
+      fontFamily: {
+        raleway: ['Raleway'],
+      },
     },
   },
   plugins: [],
