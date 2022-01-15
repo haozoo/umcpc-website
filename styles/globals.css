@@ -1,18 +1,31 @@
 /* Header font */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .header-font {
-  @apply text-white font-bold font-raleway;
+  @apply font-raleway font-bold text-3xl;
+}
+
+.subheader-font {
+  @apply font-sans tracking-wide text-xs;
+}
+
+.btn-font {
+  @apply text-white text-sm font-bold font-raleway;
 }
 
 .header-btn {
-  @apply header-font underline underline-offset-4 decoration-4 decoration-club-blue-400 hover:decoration-club-green m-6;
+  @apply btn-font hover:underline hover:underline-offset-4 hover:decoration-4 hover:decoration-club-blue-400 m-4;
 }
 
 .rounded-btn {
-  @apply header-font bg-club-blue-400 hover:bg-club-blue-600 pb-1 pt-2 px-6 m-4 rounded-full;
+  @apply btn-font btn-bg py-2 px-6 m-4 rounded-full;
+}
+
+.btn-bg {
+  @apply bg-club-blue-400 hover:bg-club-blue-600;
 }
