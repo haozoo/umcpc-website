@@ -20,7 +20,7 @@ function CameraRotation() {
 
 const Hero3JS = () => {
   return (
-    <div class="bg-club-blue-900 h-full w-full">
+    <div className="bg-club-blue-900 h-full w-full">
       <Canvas camera={{ fov: 75, position: [20, 0, 0] }}>
         <ambientLight />
         <pointLight position={[0, 0, 10]} />

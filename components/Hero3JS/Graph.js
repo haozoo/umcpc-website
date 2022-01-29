@@ -27,7 +27,7 @@ const Graph = () => {
   return (
     <a.group>
       {pos.map((obj) => {
-        return <Node position={obj} />
+        return <Node key={obj} position={obj} />
       })}
     </a.group>
   )
