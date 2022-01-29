@@ -3,7 +3,7 @@ import Header from './Header'
 
 const Layout = ({ children }) => {
   return (
-    <div class="h-screen bg-gradient-to-br from-club-blue-900 to-club-blue-800 pt-12 px-20 lg:px-32 xl:px-48: 2xl:px-48">
+    <div className="h-full bg-gradient-to-br from-club-blue-900 to-club-blue-800 pt-12 px-20 lg:px-32 xl:px-48: 2xl:px-48">
       <Header />
       <main>{children}</main>
     </div>

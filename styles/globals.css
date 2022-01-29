@@ -7,25 +7,45 @@
 @tailwind utilities;
 
 .header-font {
-  @apply font-raleway font-bold text-3xl;
+  @apply text-white font-raleway font-bold text-5xl;
 }
 
 .subheader-font {
-  @apply font-sans tracking-wide text-xs;
+  @apply text-white font-raleway font-bold text-3xl;
+}
+
+.subtitle-font {
+  @apply text-white font-sans tracking-wide text-sm;
+}
+
+.text-font {
+  @apply text-club-blue-100 font-sans tracking-wide text-lg;
 }
 
 .btn-font {
-  @apply text-white text-sm font-bold font-raleway;
+  @apply text-white font-raleway font-bold text-sm;
 }
 
 .header-btn {
   @apply btn-font hover:underline hover:underline-offset-4 hover:decoration-4 hover:decoration-club-blue-400 m-4;
 }
 
+.header-underline {
+  @apply underline underline-offset-8 decoration-8 decoration-club-blue-400;
+}
+
+.subheader-underline {
+  @apply underline underline-offset-4 decoration-4 decoration-club-blue-400;
+}
+
 .rounded-btn {
-  @apply btn-font btn-bg py-2 px-6 m-4 rounded-full;
+  @apply btn-font btn-bg py-2 px-6 rounded-full;
 }
 
 .btn-bg {
   @apply bg-club-blue-400 hover:bg-club-blue-600;
+}
+
+.social-icon {
+  @apply flex justify-center items-center h-10 w-10 rounded;
 }

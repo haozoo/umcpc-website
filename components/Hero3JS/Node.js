@@ -14,7 +14,7 @@ function Node({ position }) {
 
   const scale = spring.to([0, 1], [1, 1.5])
   const rotation = spring.to([0, 1], [0, 0.5 * Math.PI])
-  const color = spring.to([0, 1], ['#08111B', '#81EC4E'])
+  const color = spring.to([0, 1], ['#81EC4E', '#FFBD54'])
 
   return (
     <a.mesh

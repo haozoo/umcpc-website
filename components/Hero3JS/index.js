@@ -7,25 +7,25 @@ const lookAtOrigin = new THREE.Vector3(0, 0, 0)
 const CAMERA_RADIUS = 15
 const CAMERA_SPEED = 0.5
 
-// function CameraRotation() {
-//   useFrame(({ clock, camera }) => {
-//     const elapsedTime = clock.getElapsedTime()
-//     camera.position.x = Math.cos(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
-//     camera.position.z = Math.sin(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
-//     camera.position.y = 0
-//     camera.lookAt(lookAtOrigin)
-//   })
-//   return null
-// }
+function CameraRotation() {
+  useFrame(({ clock, camera }) => {
+    const elapsedTime = clock.getElapsedTime()
+    camera.position.x = Math.cos(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
+    camera.position.z = Math.sin(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
+    camera.position.y = Math.sin(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
+    camera.lookAt(lookAtOrigin)
+  })
+  return null
+}
 
 const Hero3JS = () => {
   return (
-    <div class="bg-club-blue-500 h-full w-full">
+    <div class="bg-club-blue-900 h-full w-full">
       <Canvas camera={{ fov: 75, position: [20, 0, 0] }}>
         <ambientLight />
         <pointLight position={[0, 0, 10]} />
         <Graph />
-        {/* <CameraRotation /> */}
+        <CameraRotation />
       </Canvas>
     </div>
   )
