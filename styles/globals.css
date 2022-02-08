@@ -49,3 +49,11 @@
 .social-icon {
   @apply flex justify-center items-center h-10 w-10 rounded;
 }
+
+.member-tooltip {
+  @apply absolute h-auto z-50 w-36 py-2 px-2 min-h-max -left-24 bottom-56
+  rounded-tl-lg rounded-tr-lg rounded-bl-lg
+  text-white bg-club-blue-400
+  font-raleway   
+  transition-all duration-100 scale-0 origin-right;
+}

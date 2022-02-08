@@ -1,17 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Member = ({ name, title, img }) => {
+const Member = ({ name, title, img, text }) => {
   return (
-    <div className="mb-16">
-      <div className="mb-2">
+    <div className="relative h-72 mb-16">
+      <div className="mb-2 group">
         <Image
-          src="/profile-tmp.jpg"
-          width={160}
-          height={160}
+          src="/tmp-profile.jpeg"
+          width={208}
+          height={208}
           alt="Committee member profile picture."
-          className="h-36 w-36 rounded-full"
+          className="rounded-full"
         />
+        <div className="member-tooltip group-hover:scale-100">{text}</div>
       </div>
       <h2 className="text-white font-raleway font-bold text-lg text-center">
         {name}
