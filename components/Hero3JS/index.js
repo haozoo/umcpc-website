@@ -1,33 +1,24 @@
-import { Canvas, useFrame } from '@react-three/fiber'
-import * as THREE from 'three'
+import { Canvas } from '@react-three/fiber'
+import { Suspense } from 'react'
 import Graph from './Graph'
-
-const lookAtOrigin = new THREE.Vector3(0, 0, 0)
-
-const CAMERA_RADIUS = 15
-const CAMERA_SPEED = 0.5
-
-function CameraRotation() {
-  useFrame(({ clock, camera }) => {
-    const elapsedTime = clock.getElapsedTime()
-    camera.position.x = Math.cos(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
-    camera.position.z = Math.sin(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
-    camera.position.y = Math.sin(elapsedTime * CAMERA_SPEED) * CAMERA_RADIUS
-    camera.lookAt(lookAtOrigin)
-  })
-  return null
-}
+import Text from './Text'
 
 const Hero3JS = () => {
   return (
-    <div className="bg-club-blue-900 h-full w-full">
-      <Canvas camera={{ fov: 75, position: [20, 0, 0] }}>
-        <ambientLight />
-        <pointLight position={[0, 0, 10]} />
+    <Canvas
+      orthographic
+      shadows
+      dpr={[1, 2]}
+      camera={{ zoom: 60, position: [-20, 8, 24], fov: 35 }}
+    >
+      <axesHelper />
+      <ambientLight intensity={1} />
+      <pointLight intensity={0.5} position={[0, 20, 0]} />
+      <Suspense fallback={null}>
         <Graph />
-        <CameraRotation />
-      </Canvas>
-    </div>
+        <Text />
+      </Suspense>
+    </Canvas>
   )
 }
 

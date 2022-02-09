@@ -1,24 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { a } from '@react-spring/three'
-import Node from './Node'
-
-const RANGE_Y = 10
-const RANGE_H = 25
-const NODES = 10
+import Bar from './Bar'
 
 const Graph = () => {
-  // const [play, setPlay] = useState(false)
   const [pos, setPos] = useState([])
 
   useEffect(() => {
     let positions = []
 
-    for (let i = 0; i < NODES; i++) {
-      positions.push([
-        (Math.random() - 0.5) * RANGE_H,
-        (Math.random() - 0.5) * RANGE_Y,
-        (Math.random() - 0.5) * RANGE_H,
-      ])
+    for (let i = -4; i <= 3; i++) {
+      positions.push([4, -1, 2 * i])
     }
 
     setPos(positions)
@@ -27,7 +18,7 @@ const Graph = () => {
   return (
     <a.group>
       {pos.map((obj) => {
-        return <Node key={obj} position={obj} />
+        return <Bar key={obj} position={obj} />
       })}
     </a.group>
   )

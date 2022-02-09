@@ -1,10 +1,20 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { useSpring, animated } from 'react-spring'
 
 const Header = () => {
+  const styles = useSpring({
+    from: { opacity: '0' },
+    to: { opacity: '1' },
+    config: { duration: '1500' },
+  })
+
   return (
-    <div className="grid grid-cols-2 md:grid-cols-8 mb-24">
+    <animated.div
+      className="grid grid-cols-2 md:grid-cols-8 mb-24"
+      style={styles}
+    >
       <div className="col-span-1 shrink-0">
         <Link href="/" passHref>
           <button>
@@ -21,30 +31,14 @@ const Header = () => {
         </Link>
       </div>
       <div className="col-span-1 md:col-span-7 md:grid md:justify-items-end">
-        {/* <div className="grid justify-items-end md:invisible col-span-1">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-20 w-20 bg-white"
-            fill="#FFFFFF"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            />
-          </svg>
-        </div> */}
         <div className="invisible md:visible flex flex-row items-center">
-          <Link href="about-us" passHref>
+          <Link href="/about-us" passHref>
             <button className="header-btn">About Us</button>
           </Link>
-          <Link href="events" passHref>
+          <Link href="/events" passHref>
             <button className="header-btn">Events</button>
           </Link>
-          <Link href="resources" passHref>
+          <Link href="/resources" passHref>
             <button className="header-btn">Resources</button>
           </Link>
           <a className="rounded-btn ml-4" href="http://shorturl.at/lDOX1">
@@ -52,7 +46,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-    </div>
+    </animated.div>
   )
 }
 

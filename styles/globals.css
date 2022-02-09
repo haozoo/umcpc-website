@@ -57,3 +57,19 @@
   font-raleway   
   transition-all duration-100 scale-0 origin-right;
 }
+/* 
+.text-3d {
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  transform: translate3d(-50%, -50%, 0) rotate3d(1, 0, 0, 69deg) rotate3d(0, 0, 1, 45deg);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 200px;
+  letter-spacing: -10px;
+  color: #173353;
+} */
