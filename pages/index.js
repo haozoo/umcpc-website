@@ -10,29 +10,25 @@ export default function Home() {
   })
 
   return (
-    <div className="h-screen overflow-hidden relative z-0">
+    <div className="h-screen relative z-0">
       <animated.div
-        className="flex flex-col lg:w-1/5 z-50 absolute inset-0 "
+        className="flex flex-col items-center text-center sm:items-baseline sm:text-left lg:w-1/4 z-50 absolute inset-0 "
         style={fadeIn}
       >
         <h2 className="subtitle-font pl-1">The University of Melbourne</h2>
-        <h1 className="header-font">
-          Competitive <br /> Programming
-        </h1>
-        <h1 className="header-font header-underline">Club</h1>
-        <p className="text-font mt-8 text-left">
+        <h1 className="header-font">Competitive Programming</h1>
+        <span className="header-font header-underline">Club</span>
+        <p className="text-font w-4/5 lg:w-full mt-8 text-blue">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
-          nibh dapibus, placerat leo nec, mattis eros. Etiam ac purus in nisl
-          lacinia commodo eu quis leo. Morbi accumsan ligula risus, vel
-          scelerisque lorem vulputate ac.
+          nibh dapibus, placerat leo nec, mattis eros.
         </p>
         <a
-          className="flex mt-16 mb-4 w-48 bg-club-blue-400 shadow shadow-club-blue-500 rounded-full"
+          className="flex h-6 sm:h-8 mt-16 mb-4 w-40 sm:w-48 bg-club-blue-400 shadow shadow-club-blue-500 rounded-full"
           href="http://shorturl.at/lDOX1"
         >
-          <p className="btn-font py-2 pl-6 pr-3">Join the club!</p>
-          <p className="btn-font py-2 w-0.5 bg-club-blue-500"></p>
-          <p className="btn-font py-2 pl-3 pr-6">$0</p>
+          <p className="btn-font py-1 sm:py-2 pl-6 pr-3">Join the club!</p>
+          <p className="btn-font py-1 sm:py-2 w-0.5 bg-club-blue-500"></p>
+          <p className="btn-font py-1 sm:py-2 pl-3 pr-3 sm:pr-6">$0</p>
         </a>
         <Socials />
       </animated.div>
