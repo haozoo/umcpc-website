@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 .header-font {
-  @apply text-white font-raleway font-bold text-5xl;
+  @apply text-white font-raleway font-bold text-4xl sm:text-5xl;
 }
 
 .subheader-font {
@@ -19,7 +19,7 @@
 }
 
 .text-font {
-  @apply text-club-blue-100 font-sans tracking-wide text-lg;
+  @apply text-club-blue-100 font-sans tracking-wide text-base sm:text-lg;
 }
 
 .btn-font {

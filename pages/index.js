@@ -10,7 +10,7 @@ export default function Home() {
   })
 
   return (
-    <div className="h-full relative z-0">
+    <div className="h-screen overflow-hidden relative z-0">
       <animated.div
         className="flex flex-col lg:w-1/5 z-50 absolute inset-0 "
         style={fadeIn}

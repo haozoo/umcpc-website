@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <animated.div
-      className="grid grid-cols-2 md:grid-cols-8 mb-24"
+      className="grid grid-cols-2 md:grid-cols-8 mb-12 sm:mb-24"
       style={styles}
     >
       <div className="col-span-1 shrink-0">

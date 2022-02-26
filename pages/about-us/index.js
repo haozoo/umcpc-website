@@ -4,7 +4,7 @@ import Socials from '../../components/shared/Socials'
 
 const AboutUs = () => {
   return (
-    <div className="h-screen flex flex-col 2xl:flex-row">
+    <div className="h-[80] sm:h-screen flex flex-col 2xl:flex-row">
       <div className="mb-16 2xl:w-2/5">
         <div className="flex flex-col 2xl:flex-row">
           <h1 className="flex-none header-font pr-3">Come meet</h1>
