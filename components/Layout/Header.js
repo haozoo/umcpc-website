@@ -65,9 +65,9 @@ const Header = () => {
                   className="w-6 h-6 text-gray-400 hover:text-club-blue-200"
                   x-show="!showMenu"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
@@ -84,7 +84,7 @@ const Header = () => {
           className="fixed top-0 right-4 z-10 w-full h-screen bg-club-blue-900/30 backdrop-blur-sm"
           onClick={() => setMobileMenuExpanded(false)}
         ></div>
-        <div className="absolute top-0 right-0 z-20 w-44 h-fit pt-4 pb-6 pl-4 bg-[#162638] rounded-lg">
+        <div className="absolute top-0 right-0 z-20 w-44 h-fit pt-4 pb-6 pl-4 bg-[#162638]] rounded-lg">
           <div className="flex flex-col space-y-4 items-baseline">
             <Link href="/about-us" passHref>
               <button className="menu-btn" onClick={handleCloseMobileMenu}>
@@ -107,16 +107,16 @@ const Header = () => {
             onClick={() => setMobileMenuExpanded(false)}
           >
             <svg
-              class="w-6 h-6 text-gray-300 hover:text-club-blue-200"
+              className="w-6 h-6 text-gray-300 hover:text-club-blue-200"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M6 18L18 6M6 6l12 12"
               ></path>
             </svg>

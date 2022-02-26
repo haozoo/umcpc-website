@@ -10,7 +10,7 @@ export const EXECUTIVES = [
   },
   {
     id: 2,
-    name: "Jonothan El'Khoury",
+    name: 'Jonothan El Khoury',
     title: 'Vice President',
     img: '/jono.jpeg',
     text: "Hey! I'm Jono and I love playing league",
