@@ -7,8 +7,8 @@ const AboutUs = () => {
     <div className="h-[80] sm:h-screen flex flex-col 2xl:flex-row">
       <div className="mb-16 2xl:w-2/5">
         <div className="flex flex-col 2xl:flex-row">
-          <h1 className="flex-none header-font pr-3 z-50">Come meet</h1>
-          <h1 className="flex-none header-font z-50 header-underline">
+          <h1 className="flex-none header-font pr-3 z-20">Come meet</h1>
+          <h1 className="flex-none header-font z-20 header-underline">
             Our Team
           </h1>
         </div>

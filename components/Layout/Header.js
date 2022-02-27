@@ -81,10 +81,10 @@ const Header = () => {
 
       <div className={mobileMenuExpanded ? '' : 'hidden'}>
         <div
-          className="fixed top-0 right-4 z-10 w-full h-screen bg-club-blue-900/30 backdrop-blur-sm"
+          className="fixed top-0 right-4 z-40 w-full h-screen bg-club-blue-900/30 backdrop-blur-sm"
           onClick={() => setMobileMenuExpanded(false)}
         ></div>
-        <div className="absolute top-0 right-0 z-20 w-44 h-fit pt-4 pb-6 pl-4 bg-[#162638]] rounded-lg">
+        <div className="absolute top-0 right-0 z-50 w-44 h-fit pt-4 pb-6 pl-4 bg-[#162638] rounded-lg">
           <div className="flex flex-col space-y-4 items-baseline">
             <Link href="/about-us" passHref>
               <button className="menu-btn" onClick={handleCloseMobileMenu}>
