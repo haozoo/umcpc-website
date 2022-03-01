@@ -13,10 +13,10 @@ const AboutUs = () => {
           </h1>
         </div>
         <p className="text-font mt-12 2xl:w-5/6">
-          Our club is home to all of the University of Melbourne's competitive
-          programming endeavours! We aim to impart a strong understanding of
-          algorithms and data structures that are both fun and key to a
-          successful future in the tech industry!
+          Our club is home to all of the University of Melbourne&apos;s
+          competitive programming endeavours! We aim to impart a strong
+          understanding of algorithms and data structures that are both fun and
+          key to a successful future in the tech industry!
         </p>
         <p className="text-font mt-8 2xl:w-5/6">
           Come talk to us on <span className="highlighted-font">Discord</span>,{' '}

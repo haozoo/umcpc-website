@@ -47,9 +47,9 @@ const Header = () => {
               <Link href="/events" passHref>
                 <button className="header-btn">Events</button>
               </Link>
-              <Link href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing">
                 <button className="header-btn">Resources</button>
-              </Link>
+              </a>
             </div>
             <a className="rounded-btn ml-4" href="http://shorturl.at/lDOX1">
               Join us
@@ -96,14 +96,11 @@ const Header = () => {
                 Events
               </button>
             </Link>
-            <Link
-              href="/resources"
-              href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing"
-            >
+            <a href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing">
               <button className="menu-btn" onClick={handleCloseMobileMenu}>
                 Resources
               </button>
-            </Link>
+            </a>
             <div className="w-36 border-2 border-t border-club-blue-700"></div>
             <a
               className="btn-font btn-bg h-6 py-1 px-3 mr-4 rounded-full "
