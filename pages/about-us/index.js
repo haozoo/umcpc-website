@@ -9,16 +9,19 @@ const AboutUs = () => {
         <div className="flex flex-col 2xl:flex-row">
           <h1 className="flex-none header-font pr-3 z-20">Come meet</h1>
           <h1 className="flex-none header-font z-20 header-underline">
-            Our Team
+            our team
           </h1>
         </div>
         <p className="text-font mt-12 2xl:w-5/6">
-          Nulla nec nibh dapibus, placerat leo nec, mattis eros. Etiam ac purus
-          in nisl lacinia commodo eu quis leo. Morbi accumsan ligula risus, vel
-          scelerisque lorem vulputate ac.
+          Our club is home to all of the University of Melbourne's competitive
+          programming endeavours! We aim to impart a strong understanding of
+          algorithms and data structures that are both fun and key to a
+          successful future in the tech industry!
         </p>
         <p className="text-font mt-8 2xl:w-5/6">
-          Come talk to us on Discord, Facebook or checkout our UMSU page!
+          Come talk to us on <span className="highlighted-font">Discord</span>,{' '}
+          <span className="highlighted-font">Facebook</span> or checkout our new{' '}
+          <span className="highlighted-font">UMSU</span> page!
         </p>
         <div className="mt-8">
           <Socials />

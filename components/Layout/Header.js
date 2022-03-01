@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="flex flex-row items-center space-x-3 md:space-x-0 md:flex-col">
                   <div className="h-5 md:h-14 w-5 md:w-14 relative">
                     <Image
-                      src="/club-logo.svg"
+                      src="/branding/club-logo.svg"
                       alt="UMCPC Logo"
                       layout="fill"
                       objectFit="cover"
@@ -47,7 +47,7 @@ const Header = () => {
               <Link href="/events" passHref>
                 <button className="header-btn">Events</button>
               </Link>
-              <Link href="/resources" passHref>
+              <Link href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing">
                 <button className="header-btn">Resources</button>
               </Link>
             </div>
@@ -96,11 +96,21 @@ const Header = () => {
                 Events
               </button>
             </Link>
-            <Link href="/resources" passHref>
+            <Link
+              href="/resources"
+              href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing"
+            >
               <button className="menu-btn" onClick={handleCloseMobileMenu}>
                 Resources
               </button>
             </Link>
+            <div className="w-36 border-2 border-t border-club-blue-700"></div>
+            <a
+              className="btn-font btn-bg h-6 py-1 px-3 mr-4 rounded-full "
+              href="http://shorturl.at/lDOX1"
+            >
+              Join us
+            </a>
           </div>
           <button
             className="absolute top-3 right-4 w-6 h-6 flex items-center"

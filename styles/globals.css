@@ -16,7 +16,7 @@ body {
 }
 
 .header-font {
-  @apply text-white font-raleway font-bold text-3xl sm:text-5xl;
+  @apply text-white font-raleway font-extrabold text-4xl sm:text-5xl xl:text-6xl;
 }
 
 .subheader-font {
@@ -24,11 +24,15 @@ body {
 }
 
 .subtitle-font {
-  @apply text-white font-sans tracking-wide text-xs sm:text-base;
+  @apply text-white font-sans font-normal tracking-wide text-xs sm:text-base;
 }
 
 .text-font {
-  @apply text-gray-400 font-sans tracking-wide text-sm sm:text-lg;
+  @apply text-gray-400 font-sans font-normal tracking-wide text-base sm:text-lg;
+}
+
+.highlighted-font {
+  @apply text-club-blue-300 font-semibold;
 }
 
 .btn-font {
@@ -64,7 +68,7 @@ body {
 }
 
 .member-tooltip {
-  @apply absolute h-auto min-h-max z-50 w-24 sm:w-36 py-2 px-2  
+  @apply absolute h-auto min-h-max z-50 w-24 sm:w-40 py-2 px-2  
   -left-12 sm:-left-20 -top-4
   rounded-tl-lg rounded-tr-lg rounded-bl-lg
   text-white text-xs sm:text-sm bg-club-blue-400

@@ -4,11 +4,11 @@ import React from 'react'
 function Socials() {
   return (
     <div className="flex gap-3 sm:gap-2">
-      <a href="https://discord.gg/9fKA5cfg2N">
+      <a href="https://discord.gg/R68WZcgSVp">
         <div className="social-icon bg-[#5865F2]">
           <div className="h-3 sm:h-6 w-4 sm:w-8 relative">
             <Image
-              src="/discord-white.svg"
+              src="/branding/discord-white.svg"
               alt="Discord Logo"
               layout="fill"
               objectFit="cover"
@@ -20,7 +20,7 @@ function Socials() {
         <div className="social-icon bg-[#1778F2]">
           <div className="h-4 sm:h-8 w-4 sm:w-8 mb-[2px] sm:mb-1 relative">
             <Image
-              src="/facebook-white.svg"
+              src="/branding/facebook-white.svg"
               alt="Facebook Logo"
               layout="fill"
               objectFit="cover"
@@ -32,7 +32,7 @@ function Socials() {
         <div className="social-icon bg-[#68217C]">
           <div className="h-4 sm:h-8 w-3 sm:w-7 relative">
             <Image
-              src="/umsu.png"
+              src="/branding/umsu.png"
               alt="UMSU Logo"
               layout="fill"
               objectFit="cover"

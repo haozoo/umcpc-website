@@ -6,14 +6,14 @@ export const EXECUTIVES = [
     name: 'Michael Zhao',
     title: 'President',
     img: '/michael.png',
-    text: "Hi I'm Michael and I love F1!",
+    text: "Hi I'm Michael and I love F1! 🏎",
   },
   {
     id: 2,
     name: 'Jonothan El Khoury',
     title: 'Vice President',
     img: '/jono.jpeg',
-    text: "Hey! I'm Jono and I love playing league",
+    text: "Hey! I'm Jono and I love league 🎮",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const EXECUTIVES = [
     name: 'Hao Xu',
     title: 'Treasurer',
     img: '/hao.jpg',
-    text: "Hi! I'm Hao! Nice to meet you :)",
+    text: "Hi! I'm Hao! I like building websites ✌",
   },
 ]
 
@@ -44,7 +44,7 @@ export const COMMITTEE = [
     name: 'Quang Ong',
     title: 'Committee Member',
     img: '/quang.png',
-    text: 'I like winning medals at the IOI :)',
+    text: 'Have you heard of our lord and saviour, the almighty segtree? 🌳',
   },
   {
     id: 3,

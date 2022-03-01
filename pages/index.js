@@ -18,12 +18,13 @@ export default function Home() {
         <h2 className="subtitle-font pl-1">The University of Melbourne</h2>
         <h1 className="header-font">Competitive Programming</h1>
         <span className="header-font header-underline">Club</span>
-        <p className="text-font w-4/5 lg:w-full mt-8 text-blue">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
-          nibh dapibus, placerat leo nec, mattis eros.
+        <p className="text-font w-5/6 lg:w-full mt-8 text-blue">
+          Looking to sharpen your{' '}
+          <span className="highlighted-font">programming</span> and{' '}
+          <span className="highlighted-font">problem solving</span> skills!?
         </p>
         <a
-          className="flex h-6 sm:h-8 mt-16 mb-4 w-40 sm:w-48 bg-club-blue-400 shadow shadow-club-blue-500 rounded-full"
+          className="flex h-6 sm:h-8 mt-8 mb-4 w-40 sm:w-48 bg-club-blue-400 shadow shadow-club-blue-500 rounded-full"
           href="http://shorturl.at/lDOX1"
         >
           <p className="btn-font py-1 sm:py-2 pl-6 pr-3">Join the club!</p>
