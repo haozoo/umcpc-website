@@ -28,7 +28,7 @@ function Socials() {
           </div>
         </div>
       </a>
-      <a href="https://umsu.unimelb.edu.au/clubs/competitive-programming-club/">
+      <a href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/6517/">
         <div className="social-icon bg-[#68217C]">
           <div className="h-4 sm:h-8 w-3 sm:w-7 relative">
             <Image
