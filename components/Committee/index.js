@@ -19,7 +19,7 @@ const Committee = () => {
           <h1 className="sticky top-0 z-40 subheader-font text-center mb-8 sm:mb-16">
             Executive Committee
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 justify-items-center">
+          <div className="grid grid-cols-1 gap-0 sm:grid-cols-2 justify-items-center px-12">
             {executives.map((mem) => {
               return (
                 <Member
@@ -37,7 +37,7 @@ const Committee = () => {
           <h1 className="subheader-font sticky top-0 z-50 text-center pb-16">
             General Committee
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 justify-items-center">
+          <div className="grid grid-cols-1 gap-0 sm:grid-cols-2 justify-items-center">
             {committee.map((mem) => {
               return (
                 <Member

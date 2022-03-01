@@ -16,7 +16,7 @@ body {
 }
 
 .header-font {
-  @apply text-white font-raleway font-extrabold text-4xl sm:text-5xl 2xl:text-6xl;
+  @apply text-white font-raleway font-extrabold text-4xl lg:text-5xl 2xl:text-6xl;
 }
 
 .page-header-font {

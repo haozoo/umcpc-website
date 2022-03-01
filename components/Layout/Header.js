@@ -48,7 +48,7 @@ const Header = () => {
                 <button className="header-btn">Events</button>
               </Link>
               <a href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing">
-                <button className="header-btn">Resources</button>
+                <button className="header-btn pb-1">Resources</button>
               </a>
             </div>
             <a className="rounded-btn ml-4" href="http://shorturl.at/lDOX1">

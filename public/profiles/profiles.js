@@ -19,7 +19,7 @@ export const EXECUTIVES = [
     id: 3,
     name: 'Kyla Canares',
     title: 'Secretary',
-    img: '/kyla.png',
+    img: '/kyla.jpeg',
     text: '',
   },
   {
@@ -42,21 +42,21 @@ export const COMMITTEE = [
   {
     id: 2,
     name: 'Quang Ong',
-    title: 'Committee Member',
+    title: 'General Committee',
     img: '/quang.png',
     text: 'Have you heard of our lord and saviour, the almighty segtree? 🌳',
   },
   {
     id: 3,
     name: 'Risa Pais',
-    title: 'Committee Member',
+    title: 'General Committee',
     img: '/risa.png',
     text: '',
   },
   {
     id: 4,
     name: 'Tugsgerel L.',
-    title: 'Committee Member',
+    title: 'General Committee',
     img: '/tugsgerel.png',
     text: '',
   },
