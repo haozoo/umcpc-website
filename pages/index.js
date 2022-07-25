@@ -25,7 +25,7 @@ export default function Home() {
         </p>
         <a
           className="flex h-6 sm:h-9 mt-8 mb-4 w-40 sm:w-48 bg-club-blue-400 shadow shadow-club-blue-500 rounded-full"
-          href="http://shorturl.at/lDOX1"
+          href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/6517/"
         >
           <p className="btn-font py-1 sm:py-2 pl-6 pr-3">Join the club!</p>
           <p className="btn-font py-1 sm:py-2 w-0.5 bg-club-blue-500"></p>
