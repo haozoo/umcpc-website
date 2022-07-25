@@ -51,7 +51,7 @@ const Header = () => {
                 <button className="header-btn pb-1">Resources</button>
               </a>
             </div>
-            <a className="rounded-btn ml-4" href="http://shorturl.at/lDOX1">
+            <a className="rounded-btn ml-4" href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/6517/">
               Join us
             </a>
           </div>
@@ -104,7 +104,7 @@ const Header = () => {
             <div className="w-36 border-2 border-t border-club-blue-700"></div>
             <a
               className="btn-font btn-bg h-6 py-1 px-3 mr-4 rounded-full "
-              href="http://shorturl.at/lDOX1"
+              href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/6517/"
             >
               Join us
             </a>
